@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outstock - eCommerce</title>
+
+    <!-- ---------- bootstrap ---------- -->
+    <link rel="stylesheet" href="asset/bootstrap/bootstrap.min.css">
+    <!-- ---------- remix icon ----------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ----------- css -------------- -->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- -------------------------- prealoder area start ----------------------------- -->
+
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="first_object"></div>
+                <div class="object" id="second_object"></div>
+                <div class="object" id="third_object"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------- prealoder area end ------------------------------------- -->
+
+    <!-- ------------------------------------- navbar start --------------------------------- -->
+
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="asset/images/logo/logo.png" class="logo-sm" alt="" height="25" />
+            </a>
+
+            <a href="javascript:void(0)" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggle-icon"><i class="ri-menu-line"></i></span>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto navbar-center mt-lg-0 mt-2 fs-20">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" href="resume.html">Pages</a>
+                        <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="product1.html">Simple Product</a></li>
+                            <li><a class="dropdown-item" href="product2.html">Variable Product</a></li>
+                            <li><a class="dropdown-item" href="product3.html">External Product</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" href="contact.html">Contact</a>
+                        <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            <li><a class="dropdown-item" href="account.html">My Account</a></li>
+                            <li><a class="dropdown-item" href="cart.html">Shopping Cart</a></li>
+                            <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="#" class="nav-link"><i class="ri-search-line nav-icon"></i></a>
+                <a href="#" class="nav-link"><i class="ri-shopping-bag-line nav-icon"></i></a>
+                <a href="#" class="nav-link"><i class="ri-menu-fill nav-icon"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------- navbar end --------------------------------- -->
+
+    <main>
+
+        <!-- ----------------------------- main banner start ----------------------------------- -->
+
+        <section class="main-banner position-relative">
+            <div class="slider-active">
+                <div class="banner slider__height d-flex align-items-center"
+                    style="background-image: url(asset/images/banner/acount-banner.jpeg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                                <div class="slider__content">
+                                    <h2 class="fs-70" data-animation="fadeInUp" data-delay=".2s">Outstock<br> Hand Craft
+                                        Furniture</h2>
+                                    <p class="mt-30 mb-35 pr-110" data-animation="fadeInUp" data-delay=".4s">As rich and
+                                        unique as the coffee beans it is intended for, this little scoop will make your
+                                        morning ritual a special occasion every day. </p>
+                                    <a href="shop.html" class="os-btn os-btn-2" data-animation="fadeInUp"
+                                        data-delay=".6s">Checkout now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------------------- main banner end ------------------------------------------ -->
+
+        <!-- ---------------------------------- sub banner start ---------------------------------- -->
+
+        <div class="banner__area">
+            <div class="container">
+                <div class="banner__inner position-relative mt--95">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 position-relative">
+                                <div class="banner__thumb fix">
+                                    <a href="product-details.html" class="w-img">
+                                        <img src="asset/images/banner/banner-sm-1.jpg" alt="banner">
+                                    </a>
+                                </div>
+                                <div class="banner__content position-absolute transition-3">
+                                    <h5><a href="product-details.html">Sunflower Clock <br> Quartz Hands</a></h5>
+                                    <a href="product-details.html" class="link-btn">Discover now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 position-relative">
+                                <div class="banner__thumb fix">
+                                    <a href="product-details.html" class="w-img">
+                                        <img src="asset/images/banner/banner-sm-2.jpg" alt="banner">
+                                    </a>
+                                </div>
+                                <div class="banner__content position-absolute transition-3">
+                                    <h5><a href="product-details.html">Chair Kimi No Isu <br> Project</a></h5>
+                                    <a href="product-details.html" class="link-btn">Discover now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 position-relative">
+                                <div class="banner__thumb fix">
+                                    <a href="product-details.html" class="w-img">
+                                        <img src="asset/images/banner/banner-sm-3.jpg" alt="banner">
+                                    </a>
+                                </div>
+                                <div class="banner__content position-absolute transition-3">
+                                    <h5><a href="product-details.html">Sweeper and Dustpan <br> by Jan Kochanski </a>
+                                    </h5>
+                                    <a href="product-details.html" class="link-btn">Discover now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------------- sub banner end ------------------------------------- -->
+
+        <!-- ------------------------------------- About of Our Shope start --------------------------------- -->
+
+        <section class="section" id="sale">
+            <div class="container pb-5">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-xl-12 col-md-10 col-lg-7 text-center">
+                        <div class="section__title mt-50 mb-10">
+                            <h2>About Products</h2>
+                        </div>
+                        <div class="section__sub-title">
+                            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row  mt-50">
+                    <div class="col-lg-8 align-self-center">
+                        <h5 class="fs-28 text-dark fw-medium">Personal Details of our shop.......</h5>
+                        <p class="fw-normal lh-base mb-4 fs-8">
+                            A furniture retailer, furniture store or furniture shop is a
+                            retail businesses that sells furniture and related accessories
+                            sell general furniture, and specialised items produced for a
+                            commission. They may sell a range of styles to suit different homes and personal
+                            tastes.<br><br>
+
+                            Many stores also sell outdoor or garden furniture, such as dining tables, coffee tables,
+                            seats and couches, which are designed to be waterproof, rust-resistant and weather-proof
+                            rather than to follow modern indoor design trends.<br><br>
+
+                            Furniture retail sales directly correlate with the state of the economy and housing market.
+                            When interest rates are lower and housing sales are higher, like in the United States in the
+                            early 1990s, sales of household and garden furniture increases. When business conditions are
+                            positive, like in the United States in the late 1990s, sales of furniture for offices,
+                            hotels and restaurants increases.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product__wrapper mb-60">
+                            <a href="product-details.html" class="w-img">
+                                <img src="asset/images/products/product-7.jpg" alt="product-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-50">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product__wrapper mb-60">
+                            <a href="product-details.html" class="w-img">
+                                <img src="asset/images/products/product-6.jpg" alt="product-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 align-self-center">
+                        <h5 class="fs-28 text-dark fw-medium">Details of Table Lamp.......</h5>
+                        <p class="fw-normal lh-base mb-4 fs-8">
+                            A furniture retailer, furniture store or furniture shop is a
+                            retail businesses that sells furniture and related accessories
+                            sell general furniture, and specialised items produced for a
+                            commission. They may sell a range of styles to suit different homes and personal
+                            tastes.<br><br>
+
+                            Many stores also sell outdoor or garden furniture, such as dining tables, coffee tables,
+                            seats and couches, which are designed to be waterproof, rust-resistant and weather-proof
+                            rather than to follow modern indoor design trends.<br><br>
+
+                            Furniture retail sales directly correlate with the state of the economy and housing market.
+                            When interest rates are lower and housing sales are higher, like in the United States in the
+                            early 1990s, sales of household and garden furniture increases. When business conditions are
+                            positive, like in the United States in the late 1990s, sales of furniture for offices,
+                            hotels and restaurants increases.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-50">
+                    <div class="col-lg-8 align-self-center">
+                        <h5 class="fs-28 text-dark fw-medium">Details of special bag.......</h5>
+                        <p class="fw-normal lh-base mb-4 fs-8">
+                            A furniture retailer, furniture store or furniture shop is a
+                            retail businesses that sells furniture and related accessories
+                            sell general furniture, and specialised items produced for a
+                            commission. They may sell a range of styles to suit different homes and personal
+                            tastes.<br><br>
+
+                            Many stores also sell outdoor or garden furniture, such as dining tables, coffee tables,
+                            seats and couches, which are designed to be waterproof, rust-resistant and weather-proof
+                            rather than to follow modern indoor design trends.<br><br>
+
+                            Furniture retail sales directly correlate with the state of the economy and housing market.
+                            When interest rates are lower and housing sales are higher, like in the United States in the
+                            early 1990s, sales of household and garden furniture increases. When business conditions are
+                            positive, like in the United States in the late 1990s, sales of furniture for offices,
+                            hotels and restaurants increases.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product__wrapper mb-60">
+                            <a href="product-details.html" class="w-img">
+                                <img src="asset/images/products/product-8.jpg" alt="product-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-50">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product__wrapper mb-60">
+                            <a href="product-details.html" class="w-img">
+                                <img src="asset/images/products/product-9.jpg" alt="product-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 align-self-center">
+                        <h5 class="fs-28 text-dark fw-medium">Details of this product.......</h5>
+                        <p class="fw-normal lh-base mb-4 fs-8">
+                            A furniture retailer, furniture store or furniture shop is a
+                            retail businesses that sells furniture and related accessories
+                            sell general furniture, and specialised items produced for a
+                            commission. They may sell a range of styles to suit different homes and personal
+                            tastes.<br><br>
+
+                            Many stores also sell outdoor or garden furniture, such as dining tables, coffee tables,
+                            seats and couches, which are designed to be waterproof, rust-resistant and weather-proof
+                            rather than to follow modern indoor design trends.<br><br>
+
+                            Furniture retail sales directly correlate with the state of the economy and housing market.
+                            When interest rates are lower and housing sales are higher, like in the United States in the
+                            early 1990s, sales of household and garden furniture increases. When business conditions are
+                            positive, like in the United States in the late 1990s, sales of furniture for offices,
+                            hotels and restaurants increases.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-30">
+                    <div class="col-xl-12 mt-40">
+                        <div class="product__load-btn text-center mt-25">
+                            <a href="#" class="os-btn os-btn-3">Load More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ------------------------------------- About of Our Shope end --------------------------------- -->
+
+        <!-- ---------------------------------------- sale area end ---------------------------------------->
+
+        <section class="section" id="sale">
+            <div class="container pb-5">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-xl-12 col-md-10 col-lg-7 text-center">
+                        <div class="section__title mt-50 mb-10">
+                            <h2>Sale Off</h2>
+                        </div>
+                        <div class="section__sub-title">
+                            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-4 col-md-6 mt-50">
+                        <div class="product__wrapper mb-60">
+                            <div class="product__thumb">
+                                <a href="product-details.html" class="w-img">
+                                    <img src="asset/images/products/product-9.jpg" alt="product-img">
+                                    <img class="product__thumb-2" src="asset/images/products/product-7.jpg"
+                                        alt="product-img">
+                                </a>
+                                <div class="product__action transition-3">
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="ri-heart-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare">
+                                        <i class="ri-equalizer-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#productModalId">
+                                        <i class="ri-search-line"></i>
+                                    </a>
+                                </div>
+                                <div class="product__sale">
+                                    <span class="new">new</span>
+                                    <span class="percent">-16%</span>
+                                </div>
+                            </div>
+                            <div class="product__content position-relative">
+                                <div class="product__content-inner">
+                                    <h4><a href="product-details.html">Wall Lamp</a></h4>
+                                    <div class="product__price transition-3">
+                                        <span>$96.00</span>
+                                        <span class="old-price">$96.00</span>
+                                    </div>
+                                </div>
+                                <div class="add-cart position-absolute transition-3">
+                                    <a href="#">+ Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-50">
+                        <div class="product__wrapper mb-60">
+                            <div class="product__thumb">
+                                <a href="product-details.html" class="w-img">
+                                    <img src="asset/images/products/product-11.jpg" alt="product-img">
+                                    <img class="product__thumb-2" src="asset/images/products/product-12.jpg"
+                                        alt="product-img">
+                                </a>
+                                <div class="product__action transition-3">
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="ri-heart-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare">
+                                        <i class="ri-equalizer-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#productModalId">
+                                        <i class="ri-search-line"></i>
+                                    </a>
+
+                                </div>
+                                <div class="product__sale">
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <div class="product__content position-relative">
+                                <div class="product__content-inner">
+                                    <h4><a href="product-details.html">Body Loasion</a></h4>
+                                    <div class="product__price transition-3">
+                                        <span>$96.00</span>
+                                        <span class="old-price">$96.00</span>
+                                    </div>
+                                </div>
+                                <div class="add-cart position-absolute transition-3">
+                                    <a href="#">+ Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-50">
+                        <div class="product__wrapper mb-60">
+                            <div class="product__thumb">
+                                <a href="product-details.html" class="w-img">
+                                    <img src="asset/images/products/product-7.jpg" alt="product-img">
+                                    <img class="product__thumb-2" src="asset/images/products/product-8.jpg"
+                                        alt="product-img">
+                                </a>
+                                <div class="product__action transition-3">
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="ri-heart-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Compare">
+                                        <i class="ri-equalizer-line"></i>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#productModalId">
+                                        <i class="ri-search-line"></i>
+                                    </a>
+
+                                </div>
+                                <div class="product__sale">
+                                    <span class="new">new</span>
+                                </div>
+                            </div>
+                            <div class="product__content position-relative">
+                                <div class="product__content-inner">
+                                    <h4><a href="product-details.html">Designer Room Lamp</a></h4>
+                                    <div class="product__price transition-3">
+                                        <span>$96.00</span>
+                                        <span class="old-price">$96.00</span>
+                                    </div>
+                                </div>
+                                <div class="add-cart position-absolute transition-3">
+                                    <a href="#">+ Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-40">
+                        <div class="col-xl-12 mt-40">
+                            <div class="product__load-btn text-center mt-25">
+                                <a href="#" class="os-btn os-btn-3">Load More</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------- sale area end ---------------------------------------->
+
+
+
+
+        <!-- ----------------------------------- subscribe area start ------------------------------ -->
+
+        <section class="subscribe__area pb-100">
+            <div class="container">
+                <div class="subscribe__inner pt-95">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
+                            <div class="subscribe__content text-center">
+                                <h2>Get Discount Info</h2>
+                                <p>Subscribe to the Outstock mailing list to receive updates on new arrivals, special
+                                    offers and other discount information.</p>
+                                <div class="subscribe__form">
+                                    <form action="#">
+                                        <input type="email" placeholder="Subscribe to our newsletter...">
+                                        <button class="os-btn os-btn-2 os-btn-3">subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------- subscribe area end -------------------------------------- -->
+
+
+
+    </main>
+
+    <!-- -------------------------------------- footer area start ---------------------------------- -->
+
+    <section class="footer__area footer-bg">
+        <div class="footer__top pt-100 pb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                        <div class="footer__widget mb-30">
+                            <div class="footer__widget-title mb-25">
+                                <a href="index.html"><img src="asset/images/logo/logo-2.png" alt="logo"></a>
+                            </div>
+                            <div class="footer__widget-content text-white">
+                                <p>Outstock is a premium Templates theme with advanced admin module. It’s extremely
+                                    customizable, easy to use and fully responsive and retina ready.</p>
+                                <div class="footer__contact">
+                                    <ul>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-map-pin-line"></i>
+                                            </div>
+                                            <div class="text">
+                                                <span>Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-mail-send-line"></i>
+                                            </div>
+                                            <div class="text">
+                                                <span>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                        data-cfemail="d093bfbea4b1b3a490b2b1a3b9b3a4b8b5bdb5feb3bfbd">[email&#160;protected]</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="ri-phone-line"></i>
+                                            </div>
+                                            <div class="text">
+                                                <span>Phone Number: (800) 123 456 789</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+                        <div class="footer__widget mb-30">
+                            <div class="footer__widget-title">
+                                <h5>information</h5>
+                            </div>
+                            <div class="footer__widget-content">
+                                <div class="footer__links mb-10">
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Delivery Inforamtion</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Condition</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+                        <div class=" mb-30">
+                            <div class="footer__widget-title mb-25">
+                                <h5>Customer Service</h5>
+                            </div>
+                            <div class="">
+                                <div class="footer__links mb-10">
+                                    <ul>
+                                        <li><a href="#">Shipping Policy</a></li>
+                                        <li><a href="#">Help & Contact Us</a></li>
+                                        <li><a href="#">Returns & Refunds</a></li>
+                                        <li><a href="#">Online Stores</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="footer__copyright text-white">
+                            <p>Copyright © <a href="index.html">Outstock</a> all rights reserved. Powered by <a
+                                    href="index.html">Theme_pure</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="footer__social f-right">
+                            <ul>
+                                <li><a class="nav-link" href="#"><i class="ri-dribbble-line"></i></a></li>
+                                <li><a class="nav-link" href="#"><i class="ri-facebook-line"></i></a></li>
+                                <li><a class="nav-link" href="#"><i class="ri-twitter-line"></i></a></li>
+                                <li><a class="nav-link" href="#"><i class="ri-behance-line"></i></a></li>
+                                <li><a class="nav-link" href="#"><i class="ri-share-line"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------- footer area end ----------------------------------- -->
+
+
+
+</body>
+
+<!-- ------------ js ------------- -->
+<script src="asset/bootstrap/bootstrap.bundle.min.js"></script>
+
+<script src="asset/js/main.js"></script>
+
+</html>
